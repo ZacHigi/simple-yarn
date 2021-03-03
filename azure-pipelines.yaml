@@ -2,6 +2,9 @@ variables:
   - name: System.Debug
     value: true
 
+pool:
+  vmImage: 'macOS-latest'
+
 steps:  
   - task: CmdLine@2
     displayName: 'Install Core Dependencies'
