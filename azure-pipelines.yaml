@@ -1,0 +1,10 @@
+variables:
+  - name: System.Debug
+    value: true
+
+steps:  
+  - task: CmdLine@2
+    displayName: 'Install Core Dependencies'
+    inputs:
+      script: |
+        yarn install
