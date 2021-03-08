@@ -3,7 +3,7 @@ variables:
     value: true
 
 pool:
-  vmImage: 'macOS-latest'
+  vmImage: 'macOs-10.14'
 
 steps:  
   - task: CmdLine@2
