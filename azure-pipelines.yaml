@@ -3,7 +3,7 @@ variables:
     value: true
 
 pool:
-  vmImage: 'macOs-10.14'
+  vmImage: 'macOs-latest'
 
 steps:  
   - task: NodeTool@0
